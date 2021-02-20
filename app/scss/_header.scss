@@ -1,0 +1,45 @@
+.header{
+    display: block;
+    position: relative;
+
+    @include breakpoint-up(medium){
+        display: flex;
+    }
+
+    p{
+        margin-bottom: 1.6875rem;
+    }
+
+    hr{
+        border: 1px solid var(--paragraph-text);
+
+        @include breakpoint-up(large){
+            display: none;
+        }
+    }
+
+    &__title{
+        @include breakpoint-up(medium){
+            
+        }
+    }
+}
+
+.toggle{
+
+    margin-top: 1.0625rem;
+    margin-bottom: 2.5rem;
+
+    @include breakpoint-up(medium){
+        margin-top: 0;
+        //align-self: flex-start;
+    }
+
+    p{
+        margin: 0;
+
+        @include breakpoint-up(medium){
+            margin-right: 0.9375rem;
+        }
+    }
+}

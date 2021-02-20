@@ -1,0 +1,289 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+
+  <!-- Google Fonts -->
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;700&display=swap" rel="stylesheet">
+  
+  <link rel="stylesheet" href="/dist/style.css">
+
+  <title>Frontend Mentor | Social Media Dashboard with Theme Switch</title>
+
+  <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
+  <style>
+    .attribution { font-size: 11px; text-align: center; }
+    .attribution a { color: hsl(228, 45%, 44%); }
+  </style>
+</head>
+<body>
+  <div class="content">
+    
+    <div class="container container--pall">
+
+      <div class="header flex flex-jc-sb">
+
+        <div class="header__title">
+          <h1>Social Media Dashboard</h1>
+          <p>Total Followers: 23,004</p>
+
+          <hr class="hide-for-desktop hide-for-tablet"> 
+
+        </div>
+
+        <div class="toggle flex flex-jc-sb flex-ai-c">
+          <p>Dark Mode</p>
+
+          <!-- Rounded switch -->
+          <label class="switch" for="toggle-input">
+            <input id="toggle-input" type="checkbox">
+            <span class="slider round"></span>
+          </label>
+
+        </div>
+
+      </div>
+
+      <div class="social container">
+
+        <div class="social__box">
+
+            <div class="s--network flex flex-jc-c flex-ai-c">
+              <a href="#" class="facebook">
+                <img src="/images/icon-facebook.svg"><p>@nathanf</p>
+              </a>
+            </div>
+            
+            <strong>1987</strong>
+            
+            <p class="spaced">Followers</p>
+
+            <div class="counter up flex flex-jc-c flex-ai-c">
+              <img src="/images/icon-up.svg">
+              12 Today
+            </div>
+
+        </div>
+
+        <div class="social__box">
+
+            <div class="s--network flex flex-jc-c flex-ai-c">
+              <a href="#">
+                <img src="/images/icon-twitter.svg"><p>@nathanf</p>
+              </a>
+            </div>
+            
+            <strong>1044</strong>
+            
+            <p class="spaced">Followers</p>
+
+            <div class="counter up flex flex-jc-c flex-ai-c">
+              <img src="/images/icon-up.svg">
+              99 Today
+            </div>
+
+        </div>
+
+        <div class="social__box">
+
+          <div class="s--network flex flex-jc-c flex-ai-c">
+            <a href="#">
+              <img src="/images/icon-instagram.svg"><p>@realnathanf</p>
+            </a>
+          </div>
+          
+          <strong>11k</strong>
+          
+          <p class="spaced">Followers</p>
+
+          <div class="counter up flex flex-jc-c flex-ai-c">
+            <img src="/images/icon-up.svg">
+            1099 Today
+          </div>   
+
+        </div>
+
+        <div class="social__box">
+
+          <div class="s--network flex flex-jc-c flex-ai-c">
+            <a href="#">
+              <img src="/images/icon-youtube.svg"><p>Nathan F.</p>
+            </a>
+          </div>
+          
+          <strong>8239</strong>
+          
+          <p class="spaced">Subscribers</p>
+
+          <div class="counter down flex flex-jc-c flex-ai-c">
+            <img src="/images/icon-down.svg">
+            144 Today
+          </div>   
+
+        </div>
+
+      </div>
+
+      <div class="overview">
+
+        <h2>Overview - Today</h2>
+
+        <div class="overview__grid">
+
+            <div class="overview__box">
+
+              <div class="views flex flex-jc-sb">
+                <p>Page Views</p>
+                <img src="/images/icon-facebook.svg">
+              </div>
+
+              <div class="numbers flex flex-jc-sb">
+                <strong>87</strong>
+                <div class="counter up flex flex-jc-c flex-ai-c">
+                  <img src="/images/icon-up.svg">
+                  3%
+                </div>
+              </div>
+
+            </div>
+
+            <div class="overview__box">
+
+              <div class="views flex flex-jc-sb">
+                <p>Likes</p>
+                <img src="/images/icon-facebook.svg">
+              </div>
+
+              <div class="numbers flex flex-jc-sb">
+                <strong>52</strong>
+                <div class="counter down flex flex-jc-c flex-ai-c">
+                  <img src="/images/icon-down.svg">
+                  2%
+                </div>
+              </div>
+
+            </div>
+
+            <div class="overview__box">
+
+              <div class="views flex flex-jc-sb">
+                <p>Likes</p>
+                <img src="/images/icon-instagram.svg">
+              </div>
+
+              <div class="numbers flex flex-jc-sb">
+                <strong>5462</strong>
+                <div class="counter up flex flex-jc-c flex-ai-c">
+                  <img src="/images/icon-up.svg">
+                  2257%
+                </div>
+              </div>
+
+            </div>
+
+            <div class="overview__box">
+
+              <div class="views flex flex-jc-sb">
+                <p>Profile Views</p>
+                <img src="/images/icon-instagram.svg">
+              </div>
+
+              <div class="numbers flex flex-jc-sb">
+                <strong>52k</strong>
+                <div class="counter up flex flex-jc-c flex-ai-c">
+                  <img src="/images/icon-up.svg">
+                  1375%
+                </div>
+              </div>
+
+            </div>
+
+            <div class="overview__box">
+
+              <div class="views flex flex-jc-sb">
+                <p>Retweets</p>
+                <img src="/images/icon-twitter.svg">
+              </div>
+
+              <div class="numbers flex flex-jc-sb">
+                <strong>117</strong>
+                <div class="counter up flex flex-jc-c flex-ai-c">
+                  <img src="/images/icon-up.svg">
+                  303%
+                </div>
+              </div>
+
+            </div>
+
+            <div class="overview__box">
+
+              <div class="views flex flex-jc-sb">
+                <p>Likes</p>
+                <img src="/images/icon-twitter.svg">
+              </div>
+
+              <div class="numbers flex flex-jc-sb">
+                <strong>507</strong>
+                <div class="counter up flex flex-jc-c flex-ai-c">
+                  <img src="/images/icon-up.svg">
+                  553%
+                </div>
+              </div>
+
+            </div>
+
+            <div class="overview__box">
+
+              <div class="views flex flex-jc-sb">
+                <p>Likes</p>
+                <img src="/images/icon-youtube.svg">
+              </div>
+
+              <div class="numbers flex flex-jc-sb">
+                <strong>107</strong>
+                <div class="counter down flex flex-jc-c flex-ai-c">
+                  <img src="/images/icon-down.svg">
+                  19%
+                </div>
+              </div>
+
+            </div>
+
+            <div class="overview__box">
+
+              <div class="views flex flex-jc-sb">
+                <p>Total Views</p>
+                <img src="/images/icon-youtube.svg">
+              </div>
+
+              <div class="numbers flex flex-jc-sb">
+                <strong>1407</strong>
+                <div class="counter down flex flex-jc-c flex-ai-c">
+                  <img src="/images/icon-down.svg">
+                  12%
+                </div>
+              </div>
+
+            </div>
+
+        </div> <!--Overview grid -->
+
+      </div> <!--Overview End-->
+      
+    </div>
+  
+  </div>
+  
+  <div class="attribution">
+    Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
+    Coded by <a href="https://www.behance.net/mflorservidio88">María Florencia Servidio</a>.
+  </div>
+
+  <script src="/app/js/script.js"></script>
+
+</body>
+</html>
