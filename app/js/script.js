@@ -1,5 +1,5 @@
 const toggle = document.getElementById('toggle-input');
-let subtitle = document.querySelector('h2');
+const subtitle = document.querySelector('h2');
 
 /*The function adds the appropriate class to the document 
 root based on the theme argument. 
