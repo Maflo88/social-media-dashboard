@@ -17,11 +17,11 @@
     border-top: 0.25rem solid $color;
   }
 
-//640px, 1024px, 1440px
-$breakpoints-up: ("medium": "40em", "large": "64em", "xlarge": "90em");
+//640px, 1025px, 1440px
+$breakpoints-up: ("medium": "40em", "large": "64.0625em", "xlarge": "90em");
 
-//639px, 1023px, 1439px
-$breakpoints-down: ("small": "39.9375em", "medium": "63.9375em", "large": "89.9375em");
+//639px, 1024px, 1439px
+$breakpoints-down: ("small": "39.9375em", "medium": "64em", "large": "89.9375em");
 
 @mixin breakpoint-up($size){ //bigger viewports
     @media(min-width: map-get($breakpoints-up , $size)){
